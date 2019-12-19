@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Todo from '../components/Todo/Todo';
 import { bindActionCreators } from 'redux';
-import * as todoActions from '../reducers/todo/actions'
+import * as todoActions from '../reducers/todo.actions'
 import { connect } from 'react-redux';
 import { fetchMock } from '../api-mock/api';
 

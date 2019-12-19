@@ -17,6 +17,6 @@ export const fetchMock = (url, options, shouldFail) => {
           resolve({ ok: true })
         }
       }
-    }, 1000)
+    }, 100)
   })
 }

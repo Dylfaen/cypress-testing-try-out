@@ -1,4 +1,4 @@
-import { fetchMock } from "../../api-mock/api"
+import { fetchMock } from "../api-mock/api"
 
 
 export const add = (value) => {
